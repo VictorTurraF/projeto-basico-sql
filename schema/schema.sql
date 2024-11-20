@@ -14,12 +14,12 @@ ShOw DaTaBaSeS;
 
 -- Criando a tabela
 CREATE TABLE inscritos (
-    id INT not NULL AUTO_INCREMENT,      -- Identificador único (será chave primária posteriormente)
-    nome VARCHAR(100),          -- Nome do assinante
-    email VARCHAR(100),         -- Email do assinante
-    data_inscricao DATE DEFAULT (CURRENT_DATE),  -- Data da inscrição com valor padrão para o dia atual
-    idade INT,                  -- Idade (restrição será adicionada depois)
-    sexo ENUM('M', 'F'),         -- Sexo do assinante (Masculino ou Feminino)
+    id INT not NULL AUTO_INCREMENT,                 -- Identificador único (será chave primária posteriormente)
+    nome VARCHAR(100),                              -- Nome do assinante
+    email VARCHAR(100),                             -- Email do assinante
+    data_inscricao DATE DEFAULT (CURRENT_DATE),     -- Data da inscrição com valor padrão para o dia atual
+    idade INT,                                      -- Idade (restrição será adicionada depois)
+    sexo ENUM('M', 'F'),                            -- Sexo do assinante (Masculino ou Feminino)
     primary key (id)
 );
 
