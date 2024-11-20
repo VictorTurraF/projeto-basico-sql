@@ -1,0 +1,58 @@
+USE newsletter;
+
+-- Incluindo um novo assinante
+INSERT INTO inscritos (nome, email, idade, sexo) 
+VALUES ('Amber', 'wmiller@schmidt.net', 45, 'F');
+
+-- Incluindo vários novos assinantes.
+INSERT INTO inscritos (nome, email, idade, sexo)
+VALUES
+    ('Laurie', 'tadams@davis-dyer.com', 41, 'M'),
+    ('Jonathan', 'moorelisa@gmail.com', 25, 'F'),
+    ('Breanna', 'danielhoward@hotmail.com', 36, 'M'),
+    ('Michelle', 'kingrebecca@hotmail.com', 20, 'M'),
+    ('Zachary', 'cranebrandon@hernandez.net', 61, 'M'),
+    ('John', 'angelaneal@hudson.net', 37, 'M'),
+    ('Jared', 'tristanandrews@williams.info', 39, 'F'),
+    ('James', 'ajones@hotmail.com', 26, 'F'),
+    ('Damon', 'martinezmichael@gmail.com', 46, 'F'),
+    ('Robert', 'grahamkathryn@payne-scott.com', 53, 'M'),
+    ('Carrie', 'dennis51@yahoo.com', 22, 'F'),
+    ('Robert', 'brittanysweeney@hotmail.com', 38, 'F'),
+    ('Cheryl', 'ghensley@carpenter-hardin.biz', 29, 'M'),
+    ('Regina', 'jon86@yahoo.com', 31, 'F'),
+    ('Keith', 'amy74@yahoo.com', 23, 'F'),
+    ('Louis', 'judy15@gmail.com', 63, 'F'),
+    ('Theresa', 'brian86@morgan.info', 60, 'F'),
+    ('Rita', 'whitakerjoshua@dixon-black.com', 25, 'M'),
+    ('Adrian', 'stevensontina@hotmail.com', 62, 'M'),
+    ('Brent', 'otran@hotmail.com', 40, 'M'),
+    ('Amanda', 'donaldjenkins@harris.net', 23, 'F'),
+    ('Melissa', 'nelsontammy@thomas.com', 31, 'F'),
+    ('Anthony', 'jodywood@skinner.com', 24, 'F'),
+    ('Veronica', 'paulteresa@gmail.com', 25, 'F'),
+    ('Jill', 'steven31@hotmail.com', 50, 'F'),
+    ('Danny', 'nmccarthy@stark-wang.com', 37, 'M'),
+    ('Emily', 'chendennis@adams.com', 45, 'F'),
+    ('Adam', 'kyleadams@hobbs.com', 48, 'F'),
+    ('Martin', 'wrightthomas@sanchez-hines.com', 33, 'M'),
+    ('Laura', 'james29@hotmail.com', 47, 'F'),
+    ('Yvonne', 'xayala@yahoo.com', 53, 'F'),
+    ('Joshua', 'cody66@gmail.com', 65, 'F'),
+    ('Megan', 'mspence@yahoo.com', 26, 'F'),
+    ('Michael', 'thomasstephanie@moore-knapp.info', 30, 'M'),
+    ('Traci', 'annetteford@james.net', 33, 'F'),
+    ('Lisa', 'andrewiley@jones.com', 64, 'M'),
+    ('Kimberly', 'christiancastillo@yahoo.com', 21, 'F'),
+    ('Jaclyn', 'samantha65@yahoo.com', 19, 'M'),
+    ('Jessica', 'laura88@bowman.com', 53, 'M'),
+    ('Carl', 'hinesdavid@yahoo.com', 57, 'M'),
+    ('Angela', 'stephengray@avila-middleton.org', 35, 'F'),
+    ('Parker', 'angela90@hughes.com', 54, 'F'),
+    ('Dennis', 'iellis@hotmail.com', 40, 'F'),
+    ('Danielle', 'dholland@yahoo.com', 53, 'F'),
+    ('Devin', 'derekkaufman@pruitt.com', 39, 'M'),
+    ('Steven', 'wangtoni@little-jenkins.com', 38, 'M'),
+    ('Bradley', 'eberg@hotmail.com', 48, 'M'),
+    ('Krista', 'monicafranco@yahoo.com', 23, 'F'),
+    ('Taylor', 'james96@burns-page.net', 23, 'F');
